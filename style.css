@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, rgb(73, 199, 199), rgb(174, 219, 219));
+}
+.card {
+  position: relative;
+  top: 80px;
+  left: 40%;
+  width: 320px;
+  height: 400px;
+  background: #272d40;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.image {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+  transform: translateY(40px) translateX(90px);
+  border: #f2726a solid;
+  transition: 0.4s;
+}
+
+.image img {
+    margin-top: -15px;
+  width: 100%;
+}
+
+.name h1 {
+  color: white;
+  position: absolute;
+  margin: 200px 0px 0px 75px;
+}
+.job {
+  color: #f2726a;
+  position: absolute;
+  margin: 240px 0px 0px 115px;
+}
+.fb i {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 280px;
+  left: 125px;
+}
+.github i {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 280px;
+  left: 165px;
+  transition: 0.5s;
+}
+.btn {
+  height: 45px;
+  width: 120px;
+  position: absolute;
+  top: 330px;
+  background: transparent;
+  border: none;
+  outline: 1px solid #f2726a;
+  border-radius: 15px;
+  left: 100px;
+  color: white;
+  font-size: 1.1em;
+  transition: 0.5s;
+}
+.image:hover {
+  transform: unset;
+  width: 100%;
+  height: 100%;
+  border-radius: unset;
+
+  border: none;
+}
+.fb i:hover {
+  color: #f2726a;
+}
+.github i:hover {
+  color: #f2726a;
+}
+.btn:hover{
+background: #f2726a;
+}
+
